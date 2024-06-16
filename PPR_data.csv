@@ -1,0 +1,19 @@
+,Benchmarks,Adobe,Allscripts,Amazon,Gedesco,Ficticia
+%,50,64,32,445,523,5423
+%,43,0,55,730,800,3456
+num,1568636,1865636,763,45303936,5000000,6033455
+num,26,87,321,34,42,55
+,,Adobe.svg,Allscripts.svg,Amazon.svg,Gedesco.png,Allscripts.svg
+"Use cells A2 to A5 to indicate wether or not the data is of a percentage type. Write ""%"" for a percentage data type. Write ""num"" for non-percentage data. 
+Row 2 is the data for the first graph, Row 3 for the second one, etc.",These are the benchmark numbers that will be plotted on the right hand side bars on the graphs. Update with the data provided by the stakeholder.,"Copy the whole data set for a single graph and paste it above. If you copied a column, you can right-click>Paste special>Paste transposed to paste the data as a row. You need to paste-transposed the data in the same sheet where you copied from. 
+The script will take as many columns as you need
+Row 1 are the names of the companies
+Row 2 is the data for the first graph
+Row 3 the data for the second graph, Row 4: third graph, Row 5: fourth graph.
+Row 6 are the file names of the logos. You can copy all the logos from Finder and ""Paste transposed"" them in this document. Make sure they're on the right order by comparing them with the company names on the first row.","Once all the data is ready and in the right order, go to File>Download>CVS(Comma-Separated Values)
+Rename the downloaded file to just ""PPR_data.csv"" and place that file on the same folder as the script.
+Having all the logos on their ""Logos"" folder, you're ready to run the script.
+Open Illustrator, go to File>Scripts>Other script... and open ""CreateReports-V1.0.jsx""
+Allow a few minutes for the script to create all the pdf files, which will be saved on the ""PDF"" folder
+Review all pdfs and adjust the logos that you think the script didn't quite handle well.
+See the troubleshoot section on the previous tab if something went wrong",,,
